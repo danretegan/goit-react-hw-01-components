@@ -1,3 +1,43 @@
-.black {
-  color: black;
+.profile {
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+
+.avatar {
+  max-width: 250px;
+}
+
+.name {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.tag {
+  color: brown;
+}
+
+.location {
+  color: chartreuse;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: chocolate;
+}
+
+.label {
+  color: coral;
+}
+
+.quantity {
+  color: cornflowerblue;
 }
