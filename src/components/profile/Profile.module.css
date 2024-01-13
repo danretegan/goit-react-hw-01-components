@@ -10,11 +10,12 @@
 }
 
 .avatar {
-  max-width: 250px;
+  max-width: 100px;
 }
 
 .name {
   font-size: 20px;
+  font-weight: bold;
   color: blueviolet;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .location {
-  color: chartreuse;
+  color: red;
 }
 
 .stats {
