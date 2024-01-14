@@ -13,29 +13,49 @@
 
 .avatar {
   border-radius: 50%;
-  cursor: pointer;
   max-width: 100px;
   padding-top: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 
 .name {
   color: blueviolet;
-  cursor: pointer;
   font-size: 20px;
   font-weight: bold;
   padding-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.name:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 
 .tag {
   color: brown;
-  cursor: pointer;
   padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tag:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 
 .location {
   color: red;
-  cursor: pointer;
   padding-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.location:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 
 .stats {
