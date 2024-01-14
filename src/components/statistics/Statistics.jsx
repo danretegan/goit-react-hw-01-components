@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
-import getRandomHexColor from './RandomColor';
+import getRandomHexColor from './random-color.js';
 
 const Statistics = ({ title, stats }) => {
   return (
