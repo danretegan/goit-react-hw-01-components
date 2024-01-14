@@ -1,0 +1,34 @@
+.statistics {
+  /* Stiluri pentru containerul de statistici */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  /* Stiluri pentru titlu */
+  text-transform: uppercase;
+}
+
+.statList {
+  /* Stiluri pentru lista de statistici */
+  color: blue;
+  list-style: none;
+}
+
+.item {
+  /* Stiluri pentru fiecare element din listă */
+}
+
+.label {
+  /* Stiluri pentru etichetă */
+  /* display: inline-block; */
+  margin-right: 5px; /* Spațiu între etichete */
+}
+
+.percentage {
+  /* Stiluri pentru procentaj */
+  /* display: block; */
+  margin-top: 5px; /* Spațiu între procentaje și etichete */
+}

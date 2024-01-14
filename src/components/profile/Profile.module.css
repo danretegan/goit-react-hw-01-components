@@ -2,11 +2,11 @@
 }
 
 .description {
+  align-items: center;
+  color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: blue;
 }
 
 .avatar {
@@ -14,9 +14,9 @@
 }
 
 .name {
+  color: blueviolet;
   font-size: 20px;
   font-weight: bold;
-  color: blueviolet;
 }
 
 .tag {
@@ -28,11 +28,12 @@
 }
 
 .stats {
+  align-items: center;
+  color: chocolate;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: chocolate;
+  list-style: none;
 }
 
 .label {
