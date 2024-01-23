@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
+import avatarImage from './images/danretegan.webp';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
@@ -8,7 +9,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
-        <img src={avatar} alt="User avatar" className={styles.avatar} />
+        <img src={avatarImage} alt="User foto" className={styles.avatar} />
         <p className={styles.name}>{username}</p>
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
