@@ -6,13 +6,19 @@ import avatarImage from './images/danretegan.webp';
 const Profile = ({ username, tag, location, stats }) => {
   const { followers, views, likes } = stats;
 
+  const handleLocationClick = () => {
+    window.open(`https://www.google.com/maps/search/${location}`, '_blank');
+  };
+
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
         <img src={avatarImage} alt="User foto" className={styles.avatar} />
         <p className={styles.name}>{username}</p>
         <p className={styles.tag}>@{tag}</p>
-        <p className={styles.location}>{location}</p>
+        <p className={styles.location} onClick={handleLocationClick}>
+          {location}
+        </p>
       </div>
 
       <ul className={styles.stats}>
