@@ -74,15 +74,26 @@
   padding: 20px 0;
 }
 
+.statsEl:hover {
+  cursor: pointer;
+}
+
 .statsEl:not(:last-child) {
   border-right: 1px solid lightgray;
 }
 
 .label {
   color: coral;
+  transition: transform 0.3s ease-in-out;
 }
 
 .quantity {
   color: cornflowerblue;
   font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quantity:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
