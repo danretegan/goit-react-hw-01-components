@@ -10,12 +10,18 @@ const Profile = ({ username, tag, location, stats }) => {
     window.open(`https://www.google.com/maps/search/${location}`, '_blank');
   };
 
+  const handleTagClick = () => {
+    window.open(`https://www.linkedin.com/in/${tag}`, '_blank');
+  };
+
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
         <img src={avatarImage} alt="User foto" className={styles.avatar} />
         <p className={styles.name}>{username}</p>
-        <p className={styles.tag}>@{tag}</p>
+        <p className={styles.tag} onClick={handleTagClick}>
+          @{tag}
+        </p>
         <p className={styles.location} onClick={handleLocationClick}>
           {location}
         </p>
