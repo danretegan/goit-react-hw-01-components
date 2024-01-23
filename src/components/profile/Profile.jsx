@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
 import avatarImage from './images/danretegan.webp';
 
-const Profile = ({ username, tag, location, avatar, stats }) => {
+const Profile = ({ username, tag, location, stats }) => {
   const { followers, views, likes } = stats;
 
   return (

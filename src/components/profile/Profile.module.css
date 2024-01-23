@@ -94,6 +94,7 @@
 }
 
 .quantity:hover {
+  color: crimson;
   cursor: pointer;
   transform: scale(1.1);
 }
